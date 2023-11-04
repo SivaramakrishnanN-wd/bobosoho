@@ -1,0 +1,28 @@
+.main_nav{
+  z-index: 10;
+  max-height: auto;
+  background-color: white;
+  position: fixed;
+  top: 0;
+
+}
+ul {
+  position: relative;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.submenu {
+  background-color: white;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  transition: max-height 0.3s ease-in-out;
+  width: 100px;
+}
+
+li:focus-within ul,
+li:hover ul {
+  max-height: 100vh;
+}
+
+
