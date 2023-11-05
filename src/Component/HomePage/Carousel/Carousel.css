@@ -1,0 +1,11 @@
+
+  .main_carousel{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin:5% 0;
+  }
+  .carousel__content{
+    width: 90%;
+  }
+  
