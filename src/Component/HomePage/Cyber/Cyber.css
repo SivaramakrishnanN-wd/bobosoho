@@ -1,0 +1,47 @@
+.cyber_main{
+  width: 100%;
+  height: 100vh;
+  padding-top: 5%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.cyber_content_all{
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+.cyber_content {
+  width: 30%;
+  border: 1px solid #ccc; 
+  border-radius: 10px; 
+  padding: 20px;
+  margin-bottom: 2%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  background-color: #fff; 
+  transition: transform 0.2s; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.cyber_content:hover {
+  transform: translateY(-5px);
+}
+
+.cyber_content span {
+  font-size: 1rem;
+  margin-top: 10px; }
+
+.cyber_content p {
+  font-size: 0.8rem;
+  margin-top: 10px; 
+}
+.cyber_content ion-icon {
+  font-size: 2rem; /* Adjust the font-size to increase the logo size */
+}
+

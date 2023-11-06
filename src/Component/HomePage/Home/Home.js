@@ -2,6 +2,7 @@ import React from "react";
 import BgVideo from "../../../assets/video.mp4"
 import Carousel from "../Carousel/Carousel"
 import Cloud from "../Carousel/Cloud/Cloud";
+import Cyber from "../Cyber/Cyber";
 import "./Home.css"
 
 export default function Home() {
@@ -47,6 +48,7 @@ export default function Home() {
       </div>
       <Carousel />
       <Cloud />
+      <Cyber />
     </div>
   );
 }
