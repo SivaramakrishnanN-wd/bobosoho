@@ -5,6 +5,7 @@
   text-align: center;
   display: flex;
   justify-content: center;
+  overflow: hidden;
 }
 .cyber_content_all{
   width: 90%;
