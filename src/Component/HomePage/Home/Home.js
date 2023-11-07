@@ -1,5 +1,5 @@
 import React from "react";
-import BgVideo from "../../../assets/video.mp4"
+// import BgVideo from "../../../assets/video.mp4"
 import Carousel from "../Carousel/Carousel"
 import Cloud from "../Carousel/Cloud/Cloud";
 import Cyber from "../Cyber/Cyber";
