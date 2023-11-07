@@ -10,7 +10,7 @@ export default function BannerSection() {
           <source src={BgVideo} type="video/mp4" />
         </video>
         <div className="content">
-          <div className="menu_content">
+          <div className="menu_content"> 
             <h1>Bobosoho Shop</h1>
             <h2>Selling Software And Cloud Services At Best Market Prices</h2>
             <p>
