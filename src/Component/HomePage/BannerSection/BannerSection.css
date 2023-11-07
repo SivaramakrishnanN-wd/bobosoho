@@ -88,12 +88,21 @@
       .menu__content__sub {
         max-width: 100%;
       }
+      .video_bg {
+        height: 200px;
+      }
+      .front-video {
+        width: 90%;
+      }
+      .menu_content {
+        width: 90%;
+      }
     }
     
     @media (max-width: 500px) {
       .content {
         text-align: center;
-        top: 5%;
+        top: 8%;
       }
       .video_bg {
         height: 200px;
@@ -104,6 +113,9 @@
     
       .menu_content {
         width: 90%;
+      }
+      .menu__content__sub{
+        width: 100%;
       }
     }
     

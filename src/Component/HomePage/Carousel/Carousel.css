@@ -3,10 +3,9 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  margin: 5% 0;
+  margin-top: 5%;
   height: auto; /* Change this to auto or the desired height */
   background-color: #fff;
-  border: solid red;
 }
 
   .carousel__content{

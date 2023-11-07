@@ -51,9 +51,25 @@
   }
   .cyber_content{
     width: 45%;
+    height: 250px;
+   justify-content:flex-start;
+   align-items: center;
+   overflow: hidden;
   }
   .cyber_content_all{
     justify-content: space-around;
-    width: 100%;
+    width: 90%;
+  }
+  .cyber_content span {
+    font-size: 0.6rem;
+    margin-top: 10px;
+  }
+  
+  .cyber_content p {
+    font-size: 0.6rem;
+    margin-top: 10px;
+  }
+  .cyber_content ion-icon {
+    font-size: 1.5rem;
   }
 }
