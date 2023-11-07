@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.155ab419.css",
+    "main.js": "/static/js/main.5c747f95.js",
+    "static/js/787.f3706721.chunk.js": "/static/js/787.f3706721.chunk.js",
+    "static/media/video.mp4": "/static/media/video.c48c3fc0f3e802946b16.mp4",
+    "static/media/Bg_1.png": "/static/media/Bg_1.bcda363803c9ca753a20.png",
+    "static/media/Logo_6.png": "/static/media/Logo_6.8ef9f8447cfadce0f0f4.png",
+    "static/media/Logo_1.png": "/static/media/Logo_1.862824f37b2849af88ca.png",
+    "static/media/Logo_2.png": "/static/media/Logo_2.02a3646abf0914f082ec.png",
+    "static/media/cloud_1.png": "/static/media/cloud_1.06f64a9c67e9da5fd2a6.png",
+    "static/media/Logo_5.png": "/static/media/Logo_5.3d3fb150241e258dabc0.png",
+    "static/media/Logo_3.png": "/static/media/Logo_3.7e1c96b53c8577503d3a.png",
+    "static/media/Logo_4.png": "/static/media/Logo_4.6e5752a1b08aa0a3d0a2.png",
+    "static/media/soho_logo.png": "/static/media/soho_logo.ab9aea51484e519353f3.png",
+    "index.html": "/index.html",
+    "main.155ab419.css.map": "/static/css/main.155ab419.css.map",
+    "main.5c747f95.js.map": "/static/js/main.5c747f95.js.map",
+    "787.f3706721.chunk.js.map": "/static/js/787.f3706721.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.155ab419.css",
+    "static/js/main.5c747f95.js"
+  ]
+}
