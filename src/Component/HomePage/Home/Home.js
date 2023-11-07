@@ -1,5 +1,5 @@
 import React from "react";
-// import BgVideo from "../../../assets/video.mp4"
+import BgVideo from "../../../assets/video.mp4"
 import Carousel from "../Carousel/Carousel"
 import Cloud from "../Carousel/Cloud/Cloud";
 import Cyber from "../Cyber/Cyber";
@@ -11,7 +11,7 @@ export default function Home() {
       <div className="main">
         <div className="background-video">
           <video autoPlay loop muted>
-            {/* <source src={BgVideo} type="video/mp4" /> */}
+            <source src={BgVideo} type="video/mp4" />
           </video>
           <div className="content">
             <div className="menu_content">
