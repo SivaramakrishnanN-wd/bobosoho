@@ -1,13 +1,14 @@
 
-  .main_carousel{
-    width:100%;
-    display: flex;
-    justify-content: center;
-    margin:5% 0;
-    height: 100px;
-    background-color: #fff;
-    border: solid red;
-  }
+.main_carousel {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 5% 0;
+  height: auto; /* Change this to auto or the desired height */
+  background-color: #fff;
+  border: solid red;
+}
+
   .carousel__content{
     width: 90%;
   }
