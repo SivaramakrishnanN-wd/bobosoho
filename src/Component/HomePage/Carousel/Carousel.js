@@ -31,7 +31,7 @@ export default class Carousel extends Component {
         },
       ],
     };
-
+ 
     return (
       <div className="main_carousel"> 
         <div className="carousel__content">
