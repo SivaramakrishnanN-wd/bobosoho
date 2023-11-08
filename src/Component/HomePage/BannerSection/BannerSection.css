@@ -64,7 +64,6 @@
   line-height: 2rem;
 }
 .menu__content__sub {
-  border: solid;
   background-color: #fff;
   opacity: 0.6;
   width: 90%;
@@ -122,6 +121,5 @@
 @media (max-width: 400px) {
   .content {
     top: 12%;
-    border: solid red;
   }
 }
