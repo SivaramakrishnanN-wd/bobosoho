@@ -1,4 +1,3 @@
-// SubMenu.js
 import React from "react";
 
 const SubMenu = ({ items, closeSubMenu, visible }) => {

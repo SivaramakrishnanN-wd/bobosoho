@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import NavButton from "./NavButton";
 import "./Navbar.css";
 import { Links } from "./Links";
-
+import { Link } from "react-router-dom";
 const NavBar = () => {
   const [open, setOpen] = useState(false);
   const [openSubmenu, setOpenSubmenu] = useState(null);
@@ -40,7 +40,7 @@ const NavBar = () => {
           {Links.map((link, index) => (
             <li key={link.name} className="md:ml-8 text-l md:my-0 my-7 cursor-pointer" onClick={() => toggleSubmenu(index)}>
               <div className="flex items-center justify-between w-full">
-                <a href="/" className="text-gray-800 hover:text-gray-400 duration-500">{link.name}</a>
+                <Link to={link.link} className="text-gray-800 hover:text-gray-400 duration-500">{link.name}</Link>
                 {link.submenu && (
                   <ion-icon
                     name={openSubmenu === index ? "chevron-up" : "chevron-down"}
@@ -53,11 +53,11 @@ const NavBar = () => {
                     <ul className="ml-4 submenu">
                       {link.submenu.map((submenuItem) => (
                         <li key={submenuItem.name}>
-                          <a href="/"
+                          <Link to={submenuItem.link}
                             className="text-gray-800 hover:text-gray-400 duration-500"
                           >
                             {submenuItem.name}
-                          </a>
+                          </Link>
                         </li>
                       ))}
                     </ul>

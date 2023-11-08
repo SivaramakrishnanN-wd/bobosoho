@@ -1,11 +1,11 @@
-.main_nav{
+.main_nav {
   z-index: 10;
   max-height: auto;
   background-color: white;
   position: fixed;
   top: 0;
-
 }
+
 ul {
   position: relative;
   transition: max-height 0.3s ease-in-out;
@@ -14,15 +14,28 @@ ul {
 .submenu {
   background-color: white;
   position: absolute;
-  top: 30px;
-  left: 0;
+  top: 0;
+  left: -10px;
   transition: max-height 0.3s ease-in-out;
-  width: 100px;
+  width: 150px;
+  padding: 10px;
+  z-index: 11;
+  display: none;
 }
 
-li:focus-within ul,
-li:hover ul {
+.submenu a {
+  display: block;
+  padding: 8px 0;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.submenu a:hover {
+  color: #007BFF;
+}
+
+li:hover .submenu, li:focus-within .submenu {
+  display: block;
   max-height: 100vh;
 }
-
-
