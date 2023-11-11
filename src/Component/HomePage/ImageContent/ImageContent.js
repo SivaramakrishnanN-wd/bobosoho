@@ -8,7 +8,7 @@
       <div className="container">
        <div className="imageContent_all">
        <div className="left">
-          <img src={LeftImage} alt="Left Image" className="image" />
+          <img src={LeftImage} alt="Left" className="image" />
           <div className="left-content">
             <h2>Lorem ipsum</h2>
             <p>
@@ -29,10 +29,10 @@
               ac ornare nisl justo sit amet massa.
             </p>
           </div>
-          <img src={RightImage} alt="Right Image" className="image" />
+          <img src={RightImage} alt="Right" className="image" />
         </div>
         <div className="left">
-          <img src={LeftImage} alt="Left Image" className="image" />
+          <img src={LeftImage} alt="Left" className="image" />
           <div className="left-content">
             <h2>Lorem ipsum</h2>
             <p>
@@ -53,7 +53,7 @@
               ac ornare nisl justo sit amet massa.
             </p>
           </div>
-          <img src={RightImage} alt="Right Image" className="image" />
+          <img src={RightImage} alt="Right" className="image" />
         </div>
        </div>
       </div>
