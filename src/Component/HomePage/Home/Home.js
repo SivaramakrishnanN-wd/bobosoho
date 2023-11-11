@@ -4,15 +4,16 @@ import Carousel from "../Carousel/Carousel";
 import Cloud from "../Carousel/Cloud/Cloud";
 import Cyber from "../Cyber/Cyber";
 import "./Home.css";
+import ImageContentLayout from "../ImageContent/ImageContent";
 
 export default function Home() {
   return (
     <div>
       <BannerSection />
       <Cloud />
-
       <Carousel />
       <Cyber />
+      <ImageContentLayout />
     </div>
   );
 }
