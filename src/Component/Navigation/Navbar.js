@@ -66,7 +66,6 @@ const NavBar = () => {
               )}
             </li>
           ))}
-          <NavButton>My Account</NavButton>
         </ul>
       </div>
     </div>

@@ -1,0 +1,67 @@
+/* FAQ.css */
+.main_faq{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+}
+/* Set background color for the accordion container */
+#accordion-collapse {
+    background-color: #f8f8f8; /* Change this color as needed */
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    overflow: hidden; /* Ensure that the rounded corners are applied */
+  }
+  
+  /* Style for each accordion item */
+  .accordion-item {
+    border-bottom: 1px solid #e0e0e0; 
+  }
+  
+  /* Style for the accordion button */
+  .accordion-item button {
+    width: 100%;
+    padding: 15px;
+    font-weight: bold;
+    background-color: #fff; /* Change this color as needed */
+    border: 1px solid #e0e0e0;
+    border-bottom: none; /* Remove the bottom border to match the border between items */
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .accordion-item button:hover {
+    background-color: #f0f0f0; /* Change this color as needed for hover effect */
+  }
+  
+  /* Style for the accordion icon */
+  .accordion-item button svg {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Style for the expanded accordion item */
+  .accordion-item button[aria-expanded='true'] {
+    background-color: #e0e0e0; /* Change this color as needed for the active state */
+  }
+  
+  /* Style for the expanded accordion icon */
+  .accordion-item button[aria-expanded='true'] svg {
+    transform: rotate(0deg); /* Rotate the arrow to indicate the expanded state */
+  }
+  
+  /* Style for the accordion content */
+  .accordion-item div {
+    padding: 15px;
+    background-color: #fff; /* Change this color as needed for the content background */
+  }
+  
+  /* Style for the text inside the accordion content */
+  .accordion-item div p {
+    margin-bottom: 10px;
+    color: #333; /* Change this color as needed for the text */
+  }
+  .all_faq{
+    width: 60%;
+  }
+  

@@ -1,7 +1,15 @@
-import React from 'react'
+import React from "react";
+import Banner from "./Banner/Banner";
+import Carousel from "../HomePage/Carousel/Carousel";
+import Cyber from "../HomePage/Cyber/Cyber";
 
 export default function Shop() {
   return (
-    <div>Shop</div>
-  )
+    <div>
+      <Banner />
+      <Carousel />
+
+      <Cyber />
+    </div>
+  );
 }

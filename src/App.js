@@ -5,6 +5,7 @@ import Hosting from "./Component/Hosting/Hosting"
 import FAQ from "./Component/FAQ/FAQ"
 import Contact from "./Component/Contact/Contact"
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Footer from "./Component/HomePage/Footer/Footer"
 function App() {
   return (
     <>
@@ -17,6 +18,7 @@ function App() {
           <Route path="/faq" element={<FAQ />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        <Footer />
       </Router>
     </>
   );
