@@ -1,5 +1,4 @@
 import React from "react";
-import "./Banner.css";
 import { Link } from "react-router-dom";
 export default function Banner() {
   return (
